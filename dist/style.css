@@ -1,0 +1,139 @@
+#maninh1 {
+  font-family: "Galada";
+  font-size: 10rem;
+  text-align: center;
+  color: goldenrod;
+  margin-top: -25%; }
+
+h1 {
+  margin: 0;
+  font-family: "Galada";
+  font-size: 2rem;
+  text-align: center;
+  margin-top: -5%; }
+
+#Howitworks, #ViewOurMenu, #ChooseYourPlan {
+  font-family: "Galada";
+  font-size: 40px;
+  text-align: center; }
+
+.topnav {
+  overflow: hidden;
+  background-color: #af1600;
+  padding-bottom: 10px; }
+
+.topnav a {
+  float: left;
+  color: goldenrod;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold; }
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black; }
+
+/* cards */
+.card {
+  width: 30%;
+  background-color: #af1600;
+  color: goldenrod;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+  font-family: "Galada";
+  text-align: center;
+  font-size: 40px; }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6); }
+
+.container {
+  padding: 2px 16px; }
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.banner {
+  min-width: 100%; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+.box-container {
+  display: flex;
+  margin: 10%; }
+
+.box1 {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin-right: 10px;
+  padding: 30px;
+  background-color: #af1600;
+  color: goldenrod; }
+
+.box2 {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin-left: 30px;
+  padding: 30px;
+  background-color: #af1600;
+  color: goldenrod; }
+
+.bottom-nav {
+  color: goldenrod;
+  background-color: #af1600;
+  font-weight: bold;
+  display: flex;
+  height: 50px; }
+
+.bottom-nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: black; }
+
+.cta {
+  text-align: center; }
+
+.button {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 13px 34px;
+  border: 1.5px solid #a12727;
+  border-radius: 13px;
+  background: #ff4a4a;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff4a4a), to(#992727));
+  background: -moz-linear-gradient(top, #ff4a4a, #992727);
+  background: linear-gradient(to bottom, #ff4a4a, #992727);
+  text-shadow: #591717 1px 1px 1px;
+  font-weight: normal normal bold 20px arial;
+  color: #daa520;
+  text-decoration: none; }
+
+.button:hover,
+.button:focus {
+  background: #ff5959;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff5959), to(#b62f2f));
+  background: -moz-linear-gradient(top, #ff5959, #b62f2f);
+  background: linear-gradient(to bottom, #ff5959, #b62f2f);
+  color: #daa520;
+  text-decoration: none; }
+
+.button:active {
+  background: #982727;
+  background: -webkit-gradient(linear, left top, left bottom, from(#982727), to(#982727));
+  background: -moz-linear-gradient(top, #982727, #982727);
+  background: linear-gradient(to bottom, #982727, #982727); }
+
+.fa-snapchat-square, .fa-instagram, .fa-facebook-square {
+  font-size: 40px; }
+
